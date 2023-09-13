@@ -55,7 +55,7 @@ class _HomePageState extends State<HomePage> {
             DataColumn(label: Text("No")),
             DataColumn(label: Text("Nama")),
             DataColumn(label: Text("Nim")),
-          ],
+          ],//Data Kelompok
           rows: <DataRow>[
             DataRow(
               cells: <DataCell>[
@@ -63,20 +63,20 @@ class _HomePageState extends State<HomePage> {
                 DataCell(Text("Moh Yusril Prayoga")),
                 DataCell(Text("124210006")),
               ],
-            ),
+            ),//Data Pertama
             DataRow(
               cells: <DataCell>[
                 DataCell(Text("2")),
                 DataCell(Text("Jeremy Kenneth Harnanto")),
                 DataCell(Text("124210007")),
               ],
-            ),
+            ),//Data Kedua
             DataRow(
               cells: <DataCell>[
                 DataCell(Text("3")),
                 DataCell(Text("Daffa Aditya Pranugraha")),
                 DataCell(Text("124210021")),
-              ],
+              ],//Data Ketiga
             ),
           ],
         ),

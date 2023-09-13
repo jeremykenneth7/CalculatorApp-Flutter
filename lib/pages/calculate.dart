@@ -23,6 +23,7 @@ class AddTwoNumbers extends StatefulWidget {
   _AddTwoNumbersState createState() => _AddTwoNumbersState();
 }
 
+//Menu Penjumlahan dan Pengurangan
 class _AddTwoNumbersState extends State<AddTwoNumbers> {
   TextEditingController num1controller = new TextEditingController();
   TextEditingController num2controller = new TextEditingController();
